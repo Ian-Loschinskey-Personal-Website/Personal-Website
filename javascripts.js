@@ -3,7 +3,7 @@ if (window.location.href.indexOf("about.html") > -1) {
       alert('Click "Reveal" to show hidden!');
     });
   }
-//
+// Welcoming message
 if (window.location.href.indexOf("index.html") > -1) {
     window.addEventListener('load', function() {
         alert('My home page.')
