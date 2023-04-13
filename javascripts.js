@@ -1,8 +1,3 @@
-if (window.location.href.indexOf("about.html") > -1) {
-    window.addEventListener('load', function() {
-      alert('Click "Reveal" to show hidden!');
-    });
-  }
 // Welcoming message
 if (window.location.href.indexOf("index.html") > -1) {
     window.addEventListener('load', function() {
@@ -17,6 +12,11 @@ const img1 = document.getElementById('sect1-img');  // Fetches the ID from <img>
 const read1 = document.getElementById('about-read') // Fetches the ID from <h1> in first section.
 
 // function for "Reveal"
+if (window.location.href.indexOf("about.html") > -1) {
+  window.addEventListener('load', function() {
+    alert('Click "Reveal" to show hidden!');
+  });
+}
 button.addEventListener("click", () => { // when "Reveal" is click It'll show
     img1.style.display = "block"        // the id thats style for "display: none;"
     hiddenPar.style.display = "block"
