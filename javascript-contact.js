@@ -11,6 +11,7 @@
       .then(response => {
          alert('Success!', response)
          submitButton.disabled = false
+         window.location.href = 'Thank you page.html'
         })
       .catch(error => {
       alert('Error!', error.message)
