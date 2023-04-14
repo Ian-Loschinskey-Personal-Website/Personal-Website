@@ -722,6 +722,12 @@ footer a.icon:hover {
   background-size: cover;
   border: 2px solid;
 }
+#ty img {
+  border: 2px solid black
+}
+#ty img:hover {
+  transform: translateY(-200px);
+}
   /* Screen Sizes */
 @media screen and (max-width: 1024px) {
   body {
